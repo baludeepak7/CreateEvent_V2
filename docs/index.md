@@ -11,32 +11,31 @@ Sends an Error or successful response back to consumer.
 [[[[]{#toc256000916 .anchor}]{#scroll-bookmark-2064-1
 .anchor}]{#_Toc256000916 .anchor}]{#scroll-bookmark-2064 .anchor}
 
-### CreateEvent 
-
-### SOAP Headers
+### CreateEvent – Headers
 
   **Header Name**        **Type**
   ---------------------- --------------------
-  Activity Name          xs:string
+  Activity Name          string
   msgType                RequestMessageType
-  senderURI              xs:string
-  OriginatorURI          xs:string
-  replyToURI             xs:string
-  failureToURI           xs:string
-  Userid                 xs:string
-  security               xs:string
-  securityType           xs:string
-  RequestTimestamp       Xs:dateTime
-  CommunicationPattern   xs:string
-  CommunicationStyle     xs:string
-  Service                xs:string
-  Version                xs:string
-  BusinessID             xs:string
-  ConversationID         xs:string
-  RequestID              xs:string
-  MessageID              xs:string
+  senderURI              string
+  OriginatorURI          string
+  replyToURI             string
+  failureToURI           string
+  Userid                 string
+  security               string
+  securityType           string
+  RequestTimestamp       dateTime
+  CommunicationPattern   string
+  CommunicationStyle     string
+  Service                string
+  Version                string
+  BusinessID             string
+  ConversationID         string
+  RequestID              string
+  MessageID              string
 
-### SOAP BODY
+Request
+--------
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Parameter**                                                    **Description**
@@ -73,7 +72,8 @@ Sends an Error or successful response back to consumer.
                                                                    NOTE: ICOM default is “YES”. If Event should not be buffered set to “FALSE”
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-### VALIDATION RULES
+Validation Rules
+----------------
 
 In addition to the schema validation, the following additional
 validation shall be performed on the CreateEventRequest which if results
