@@ -70,10 +70,3 @@ consumer.*[[]{#scroll-bookmark-2064 .anchor}]{#_Toc256000916 .anchor}
                                                                    NOTE: ICOM default is “YES”. If Event should not be buffered set to “FALSE”
 
                                                                    
- **Type**   **Code**   **Description**                **Severity**   **Source System**
-  ---------- ---------- ------------------------------ -------------- -------------------
-  SYSTEM     2020       Unexpected Error               CRITICAL       
-  BUSINESS   10008      Field Validation Error         ERROR          
-  SYSTEM     10003      Backend Authentication Error   CRITICAL       ICOMS
-  BUSINESS   10465      ICOMS Business Exception       ERROR          ICOMS
-  SYSTEM     10466      ICOMS System Exception         CRITICAL       ICOMS
