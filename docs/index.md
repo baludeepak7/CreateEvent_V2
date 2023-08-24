@@ -68,8 +68,8 @@ consumer.*[[]{#scroll-bookmark-2064 .anchor}]{#_Toc256000916 .anchor}
 
   CreateEventRequestCpixType.eventTarget.bufferEvent               Used to indicate(in ICOMS) that the event can be buffered.\
                                                                    NOTE: ICOM default is “YES”. If Event should not be buffered set to “FALSE”
-### Error Response
 
+                                                                   
  **Type**   **Code**   **Description**                **Severity**   **Source System**
   ---------- ---------- ------------------------------ -------------- -------------------
   SYSTEM     2020       Unexpected Error               CRITICAL       
