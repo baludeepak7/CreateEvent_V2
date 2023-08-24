@@ -68,4 +68,20 @@ consumer.*[[]{#scroll-bookmark-2064 .anchor}]{#_Toc256000916 .anchor}
 
   CreateEventRequestCpixType.eventTarget.bufferEvent               Used to indicate(in ICOMS) that the event can be buffered.\
                                                                    NOTE: ICOM default is “YES”. If Event should not be buffered set to “FALSE”
-  
+
+  ### VALIDATION RULES
+
+  In addition to the schema validation, the following additional
+validation shall be performed on the CreateEventRequest which if results
+in a failure will result in a fault message returned in the SOAP header.
+
+CreateEventRequest.accountIdentification.siteReference shall be
+validated as having a length of 2 characters which contain ONLY numeric
+data.
+
+CreateEventRequest. accountIdentification.accountNumber shall be
+validated as having a length between 3 and 9 characters which contain
+ONLY numeric data.
+
+CreateEventRequest.eventTarget.premiseID shall be validated as having a
+length between 1 and 7 characters which contain ONLY numeric data.
