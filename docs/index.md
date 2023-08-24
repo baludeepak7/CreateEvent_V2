@@ -10,3 +10,5 @@ Sends an Error or successful response back to
 consumer.*[[]{#scroll-bookmark-2064 .anchor}]{#_Toc256000916 .anchor}
 
 ### CreateEvent
+
+### SOAP Headers
