@@ -12,3 +12,24 @@ consumer.*[[]{#scroll-bookmark-2064 .anchor}]{#_Toc256000916 .anchor}
 ### CreateEvent
 
 ### SOAP Headers
+
+**Header Name**        **Type**
+  ---------------------- --------------------
+  Activity Name          string
+  msgType                RequestMessageType
+  senderURI              string
+  OriginatorURI          string
+  replyToURI             string
+  failureToURI           string
+  Userid                 string
+  security               string
+  securityType           string
+  RequestTimestamp       dateTime
+  CommunicationPattern   string
+  CommunicationStyle     string
+  Service                string
+  Version                string
+  BusinessID             string
+  ConversationID         string
+  RequestID              string
+  MessageID              string
