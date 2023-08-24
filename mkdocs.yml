@@ -1,0 +1,9 @@
+site_name: 'CreateEvent_V2'
+repo_url: https://github.com/baludeepak7/CreateEvent_V2
+edit_uri: edit/main/docs
+
+nav:
+  - Home: index.md
+  
+plugins:
+  - techdocs-core
