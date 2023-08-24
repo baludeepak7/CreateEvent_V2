@@ -1,17 +1,19 @@
-**CreateEventV2**
+CreateEvent\_V2
 
 Service Description
 ===================
 
-The CreateEventV2 service is part of the integration flow Customer
+The CreateEvent\_V2 service is part of the integration flow Customer
 Events Retrieval. This is a service for creating ICOMS events. Accepts
 all the required fields from the consumer and invokes basic services.
 Sends an Error or successful response back to consumer.
 
-[[[[]{#toc256000916 .anchor}]{#scroll-bookmark-2064-1
-.anchor}]{#_Toc256000916 .anchor}]{#scroll-bookmark-2064 .anchor}
+[[[[]{#scroll-bookmark-2064-1 .anchor}]{#toc256000916
+.anchor}]{#scroll-bookmark-2064 .anchor}]{#_Toc256000916 .anchor}
 
-### CreateEvent – Headers
+### CreateEvent  {#createevent .ListParagraph}
+
+### SOAP Headers {#soap-headers .ListParagraph}
 
   **Header Name**        **Type**
   ---------------------- --------------------
@@ -34,8 +36,7 @@ Sends an Error or successful response back to consumer.
   RequestID              string
   MessageID              string
 
-Request
---------
+### SOAP BODY {#soap-body .ListParagraph}
 
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   **Parameter**                                                    **Description**
@@ -72,8 +73,7 @@ Request
                                                                    NOTE: ICOM default is “YES”. If Event should not be buffered set to “FALSE”
   ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-Validation Rules
-----------------
+### VALIDATION RULES {#validation-rules .ListParagraph}
 
 In addition to the schema validation, the following additional
 validation shall be performed on the CreateEventRequest which if results
@@ -90,7 +90,7 @@ ONLY numeric data.
 CreateEventRequest.eventTarget.premiseID shall be validated as having a
 length between 1 and 7 characters which contain ONLY numeric data.
 
-Error response
+Error response {#error-response .ListParagraph}
 --------------
 
   **Type**   **Code**   **Description**                **Severity**   **Source System**
