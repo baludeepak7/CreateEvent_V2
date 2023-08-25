@@ -80,6 +80,8 @@ consumer.
   CreateEventRequestCpixType.eventTarget.bufferEvent         -      Used to indicate(in ICOMS) that the event can be buffered.NOTE: ICOM default is “YES”. If Event should not be buffered set to “FALSE”
 
   ### ERROR RESPONSE
+
+  
 SYSTEM - 2020 - CRITICAL - Unexpected Error
 
 BUSINESS - 10008 - ERROR - Field Validation Error
