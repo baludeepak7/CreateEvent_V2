@@ -8,6 +8,7 @@ spec:
   type: openapi
   owner: Developer
   lifecycle: demo
+  system: VMO2-FixedLine
   definition:
     $text: https://github.com/baludeepak7/CreateEvent_V2/blob/main/createevent_v2.yaml
     
@@ -27,5 +28,6 @@ spec:
   type: service
   lifecycle: demo
   owner: Developer
+  system: VMO2-FixedLine
   providesApis:
     - CreateEvent_V2
